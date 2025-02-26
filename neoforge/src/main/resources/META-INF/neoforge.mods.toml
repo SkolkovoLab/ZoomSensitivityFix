@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "zoomsensitivityfix"
+version = "${version}"
+displayName = "ZoomSensitivityFix"
+authors = "ru.hld"
+description = '''
+
+'''
+#logoFile = ""
+
+[[dependencies.zoomsensitivityfix]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.zoomsensitivityfix]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.4,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "zoomsensitivityfix.mixins.json"

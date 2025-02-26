@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "ru.cherrypizza.zoomsensitivityfix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "GameRendererAccessor"
+  ],
+  "mixins": [
+    "EntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
