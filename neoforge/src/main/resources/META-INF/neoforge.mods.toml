@@ -1,6 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "[2,)"
-#issueTrackerURL = ""
+issueTrackerURL = "https://github.com/SkolkovoLab/ZoomSensitivityFix/issues"
 license = "All Rights Reserved"
 
 [[mods]]
@@ -8,10 +8,8 @@ modId = "zoomsensitivityfix"
 version = "${version}"
 displayName = "ZoomSensitivityFix"
 authors = "ru.hld"
-description = '''
-
-'''
-#logoFile = ""
+description = ""
+logoFile = "assets/zoomsensitivityfix/icon.png"
 
 [[dependencies.zoomsensitivityfix]]
 modId = "neoforge"
