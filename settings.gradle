@@ -11,4 +11,3 @@ rootProject.name = 'ZoomSensitivityFix'
 
 include 'common'
 include 'fabric'
-include 'neoforge'
