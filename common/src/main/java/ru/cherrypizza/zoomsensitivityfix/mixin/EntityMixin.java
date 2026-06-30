@@ -26,7 +26,9 @@ public class EntityMixin {
     private double zoomsensitivityfix$multipleValue(double value) {
         Entity thisEntity = ((Entity) (Object) this);
         if (!thisEntity.equals(zoomsensitivityfix$mc.player)) return value;
-        var mul = Math.min(((GameRendererAccessor) zoomsensitivityfix$mc.gameRenderer).getFovModifier(), 1.0);
+        // In 26.1 the FOV modifier field moved from GameRenderer to Camera.
+        var camera = zoomsensitivityfix$mc.gameRenderer.getMainCamera();
+        var mul = Math.min(((CameraAccessor) camera).getFovModifier(), 1.0);
         return value * mul;
     }
 }
