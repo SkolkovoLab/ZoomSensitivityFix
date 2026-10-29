@@ -6,7 +6,8 @@
   "description": "",
   "authors": [
     "MelonHell",
-    "ru.hld"
+    "ru.hld",
+    "raizor"
   ],
   "contact": {
     "homepage": ""
@@ -27,7 +28,7 @@
   ],
   "depends": {
     "fabricloader": ">=0.18.5",
-    "minecraft": "~26.2",
+    "minecraft": "~26.3",
     "java": ">=25"
   },
   "suggests": {
